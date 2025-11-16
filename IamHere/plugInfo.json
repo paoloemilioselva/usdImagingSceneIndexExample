@@ -1,0 +1,19 @@
+{
+  "Plugins": [
+    {
+      "Info": {
+        "Types": {
+          "IamHerePlugin": {
+            "bases": [ "UsdImagingSceneIndexPlugin" ],
+            "displayName": "IamHere UsdImaging Scene Index example plugin"
+          }
+        }
+      },
+      "LibraryPath": "../libIamHerePlugin.so",
+      "Name": "IamHerePlugin",
+      "Type": "library",
+      "ResourcePath": "resources",
+      "Root": ".."
+    }
+  ]
+}
